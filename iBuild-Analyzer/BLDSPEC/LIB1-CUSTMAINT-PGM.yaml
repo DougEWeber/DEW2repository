@@ -1,0 +1,77 @@
+---
+targets:
+  LIB1-CUSTMAINT-PGM :
+    objlib: LIB1
+    objname: CUSTMAINT
+    objtype: PGM
+    objattr: RPGLE
+    protected: no
+    excluded: no
+    requisites :
+      -
+        name: CUSMAIN
+        lib: "*LIBL"
+        objtype: "MODULE"
+      -
+        name: CUSMNT
+        lib: "*LIBL"
+        objtype: "MODULE"
+      -
+        name: SCHNAM
+        lib: "*LIBL"
+        objtype: "MODULE"
+      -
+        name: SCHZIP
+        lib: "*LIBL"
+        objtype: "MODULE"
+      -
+        name: MAINMENU
+        lib: "*LIBL"
+        objtype: "FILE"
+      -
+        name: CUSMSTL1
+        lib: "*LIBL"
+        objtype: "FILE"
+      -
+        name: MNTMENU
+        lib: "*LIBL"
+        objtype: "FILE"
+      -
+        name: CUSMSTL3
+        lib: "*LIBL"
+        objtype: "FILE"
+      -
+        name: SCHNAMD
+        lib: "*LIBL"
+        objtype: "FILE"
+      -
+        name: CUSMSTL2
+        lib: "*LIBL"
+        objtype: "FILE"
+      -
+        name: SCHZIPD
+        lib: "*LIBL"
+        objtype: "FILE"
+    requisiteyamlrecords :
+      - LIB1-CUSMAIN-MODULE
+      - LIB1-CUSMNT-MODULE
+      - LIB1-SCHNAM-MODULE
+      - LIB1-SCHZIP-MODULE
+      - LIB1-MAINMENU-FILE
+      - LIB1-CUSMSTL1-FILE
+      - LIB1-MNTMENU-FILE
+      - LIB1-CUSMSTL3-FILE
+      - LIB1-SCHNAMD-FILE
+      - LIB1-CUSMSTL2-FILE
+      - LIB1-SCHZIPD-FILE
+    command: CRTPGM
+    parameters:
+      - "PGM($(LIB1)/CUSTMAINT)"
+      - "USRPRF(*USER)"
+      - "MODULE(CUSMAIN CUSMNT SCHNAM SCHZIP)"
+      - "ENTMOD(CUSMAIN)"
+      - "ACTGRP(QILE)"
+      - "DETAIL(*BASIC)"
+      - "ALWUPD(*YES)"
+      - "ALWLIBUPD(*NO)"
+      - "ALWRINZ(*NO)"
