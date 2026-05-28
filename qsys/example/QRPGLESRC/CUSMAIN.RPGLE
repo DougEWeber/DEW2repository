@@ -21,6 +21,8 @@
       //  ifs file
       //  qsys file
       //  and interactive
+      //  publish interactive via menu
+      //
       //****************************************************************
 
      Fmainmenu  cf   e             workstn indds(indicators)
