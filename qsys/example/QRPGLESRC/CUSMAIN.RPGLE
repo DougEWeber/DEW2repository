@@ -10,7 +10,8 @@
       //                 1.Maintain (add, update, delete and display)  *
       //                   customer records.                           *
       //                 2.Search customer record by zip code.         *
-      //                 3.Search customer record by name.             *
+      //                 3.Search customer record by name.
+      // This is a test of RDi
       //****************************************************************
 
      Fmainmenu  cf   e             workstn indds(indicators)
