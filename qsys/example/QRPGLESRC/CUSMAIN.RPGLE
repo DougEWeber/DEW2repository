@@ -15,6 +15,9 @@
       // Version via ifs file
       // And this is from a qsys file
       // And from interactive entry
+      //
+      //  Now try commit alone
+      //  message
       //****************************************************************
 
      Fmainmenu  cf   e             workstn indds(indicators)
