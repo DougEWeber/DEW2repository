@@ -14,6 +14,7 @@
       // This is a test of RDi
       // Version via ifs file
       // And this is from a qsys file
+      // And from interactive entry
       //****************************************************************
 
      Fmainmenu  cf   e             workstn indds(indicators)
