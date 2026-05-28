@@ -19,6 +19,7 @@
       //  Now try commit alone
       //  message
       //  ifs file
+      //  qsys file
       //****************************************************************
 
      Fmainmenu  cf   e             workstn indds(indicators)
