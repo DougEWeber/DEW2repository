@@ -20,6 +20,7 @@
       //  message
       //  ifs file
       //  qsys file
+      //  and interactive
       //****************************************************************
 
      Fmainmenu  cf   e             workstn indds(indicators)
