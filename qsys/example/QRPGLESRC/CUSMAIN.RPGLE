@@ -22,7 +22,7 @@
       //  qsys file
       //  and interactive
       //  publish interactive via menu
-      //
+      //  commit via menu
       //****************************************************************
 
      Fmainmenu  cf   e             workstn indds(indicators)
