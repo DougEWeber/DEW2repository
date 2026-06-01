@@ -23,6 +23,7 @@
       //  and interactive
       //  publish interactive via menu
       //  commit via menu
+      //  testing
       //****************************************************************
 
      Fmainmenu  cf   e             workstn indds(indicators)
